@@ -1,0 +1,6 @@
+CREATE TABLE Cardapio(
+Codigo Integer not null,
+Nome_do_Prato Varchar(30),
+Descricao Varchar(256),
+Preco Decimal(8,2),
+Primary Key (Codigo))
